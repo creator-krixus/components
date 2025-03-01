@@ -1,0 +1,9 @@
+.shared-btn{
+  background: red;
+  color: #fff;
+  &:hover{
+    color: red;
+    background: #fff;
+    border: 1px solid red;
+  }
+}
