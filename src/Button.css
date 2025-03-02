@@ -2,8 +2,8 @@
   background: var(--btn-color, red);
   color: #fff;
   border: 1px solid var(--btn-color, red);
-  &:hover{
-  color: var(--btn-color, red);
-  background: #fff;
-  }
+}
+.shared-btn:hover{
+color: var(--btn-color, red);
+background: #fff;
 }
