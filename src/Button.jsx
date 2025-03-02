@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import useCount from './store';
 import "./Button.css"
 
-export default function Button({ title = "Click Me", color = "red" }) {
+export default function Button({ title = "Click Me", color }) {
   const [state, setState] = useCount();
   return (
     <div>

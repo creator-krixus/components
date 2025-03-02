@@ -1,9 +1,9 @@
 .shared-btn{
-  background: var(--btn-color, red);
+  background: var(--btn-color, blue);
   color: #fff;
-  border: 1px solid var(--btn-color, red);
+  border: 1px solid var(--btn-color, blue);
 }
 .shared-btn:hover{
-color: var(--btn-color, red);
+color: var(--btn-color, blue);
 background: #fff;
 }
